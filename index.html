@@ -1,47 +1,62 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Hack Orange | Tecnologia e IA</title>
-  <style>
-    body {
-      background: #0d0b19;
-      color: white;
-      font-family: Arial, sans-serif;
-      text-align: center;
-      padding: 40px 18px;
-    }
-    h1 { color: #ff9633; }
-    p { color: #d1c8e8; }
-    .link {
-      display: block;
-      max-width: 420px;
-      margin: 15px auto;
-      padding: 18px;
-      border: 1px solid #853df5;
-      border-radius: 12px;
-      background: #201332;
-      color: white;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    .link:hover { background: #43246a; }
-  </style>
+  <meta name="theme-color" content="#160e22">
+  <meta name="description" content="Hack Orange: tecnologia, inteligência artificial, privacidade e projetos digitais explicados na prática.">
+  <title>Hack Orange 🍊 | Tecnologia na prática</title>
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/config.js" defer></script>
+  <script src="assets/js/script.js" defer></script>
 </head>
 <body>
-  <h1>🍊 HACK ORANGE</h1>
-  <p>Tecnologia, IA, privacidade e projetos.</p>
-
-  <a class="link" href="https://github.com/hackorange-cmd">
-    💻 Meus projetos
-  </a>
-
-  <a class="link" href="https://chatgpt.com/">
-    🤖 Explorar inteligência artificial
-  </a>
-
-  <p>Mais conteúdos em breve!</p>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <div class="ambient ambient-one" aria-hidden="true"></div><div class="ambient ambient-two" aria-hidden="true"></div>
+  <header class="header" id="topo">
+    <div class="container nav-wrap">
+      <a href="#inicio" class="brand" aria-label="Hack Orange, voltar ao início"><span class="brand-mark">🍊</span><span>HACK<span class="brand-accent">ORANGE</span></span><span class="brand-cursor" aria-hidden="true">_</span></a>
+      <button type="button" class="menu-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Abrir menu"><span></span><span></span><span></span></button>
+      <nav class="nav" id="nav-links" aria-label="Navegação principal">
+        <a href="#inicio">Início</a><a href="#dicas">Dicas</a><a href="#projetos">Projetos</a><a href="#ebooks">E-books</a><a href="#sobre">Sobre</a>
+        <a class="nav-social" href="https://github.com/hackorange-cmd" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+      </nav>
+    </div>
+  </header>
+  <main id="conteudo">
+    <section id="inicio" class="hero section" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> TECNOLOGIA SEM COMPLICAÇÃO <span class="eyebrow-slash">/</span> HACK ORANGE</p>
+          <h1 id="hero-title">Explore o digital.<br><span class="gradient-text">Desbloqueie ideias.</span></h1>
+          <p class="lead">Inteligência artificial, privacidade e projetos criativos — conteúdo direto ao ponto, com curiosidade e prática.</p>
+          <div class="hero-actions"><a class="btn btn-primary" href="#dicas">Explorar conteúdos <span aria-hidden="true">↗</span></a><a class="btn btn-ghost" href="#projetos">Ver projetos <span aria-hidden="true">→</span></a></div>
+          <div class="hero-meta"><span><strong>100%</strong> aprendizado na prática</span><span class="meta-divider"></span><span><strong>∞</strong> curiosidade digital</span></div>
+        </div>
+        <div class="hero-art" aria-label="Mascote laranja da Hack Orange com notebook, em estilo cyberpunk">
+          <div class="art-halo" aria-hidden="true"></div><img src="assets/img/mascote-hack-orange.png" alt="Mascote laranja da Hack Orange usando notebook" width="550" height="370" fetchpriority="high">
+          <span class="art-label art-label-top">&lt; hack_orange /&gt;</span><span class="art-label art-label-bottom"><span class="status-dot"></span> SYSTEM ONLINE</span>
+        </div>
+      </div>
+      <div class="hero-bottom" aria-hidden="true"><span>SCROLL PARA EXPLORAR</span><span>↓</span></div>
+    </section>
+    <section id="dicas" class="section" aria-labelledby="dicas-title">
+      <div class="container"><div class="section-heading"><p class="eyebrow">01 / CONHECIMENTO</p><h2 id="dicas-title">Dicas e <span class="gradient-text">ferramentas</span></h2><p>Um ponto de partida para descobrir recursos úteis e aprender com segurança.</p></div><div class="card-grid" id="tips-grid"></div></div>
+    </section>
+    <section id="projetos" class="section section-tint" aria-labelledby="projetos-title">
+      <div class="container"><div class="section-heading"><p class="eyebrow">02 / BUILD IN PUBLIC</p><h2 id="projetos-title">Projetos em <span class="gradient-text">evolução</span></h2><p>Experimentos, códigos e ideias sendo construídos. Acompanhe pelo GitHub.</p></div><div class="project-grid" id="projects-grid"></div></div>
+    </section>
+    <section id="ebooks" class="section" aria-labelledby="ebooks-title">
+      <div class="container"><div class="section-heading"><p class="eyebrow">03 / APRENDA NO SEU RITMO</p><h2 id="ebooks-title">Guias e <span class="gradient-text">e-books</span></h2><p>Materiais didáticos para simplificar tecnologia e transformar teoria em prática.</p></div><div class="ebook-card"><div class="ebook-cover" aria-hidden="true"><div class="cover-orbit"></div><span class="cover-mini">HACK ORANGE • GUIA DIGITAL</span><div class="cover-icon">✦</div><strong>IA<br>DO ZERO</strong><small>Guia prático para iniciantes</small></div><div class="ebook-info"><span class="chip">E-BOOK DIGITAL</span><h3>IA do Zero</h3><p>Um guia acessível sobre ferramentas de IA, prompts, exercícios e oportunidades para começar no universo da inteligência artificial.</p><div class="ebook-features"><span>✓ Para iniciantes</span><span>✓ Exercícios práticos</span><span>✓ Links úteis</span></div><div class="ebook-cta" id="ebook-cta"><span class="price">R$ 29,90 <small>preço sugerido</small></span><span class="btn btn-muted">Link de compra em configuração</span></div><p class="small-note">A compra e a entrega do material acontecem em plataforma externa. Este site não solicita dados de pagamento.</p></div></div></div>
+    </section>
+    <section id="sobre" class="section section-tint" aria-labelledby="sobre-title">
+      <div class="container about-grid"><div><p class="eyebrow">04 / NOSSA IDENTIDADE</p><h2 id="sobre-title">Curiosidade é o nosso <span class="gradient-text">código-fonte.</span></h2></div><div><p class="about-copy">A Hack Orange compartilha descobertas, dicas e experiências sobre inteligência artificial, tecnologia e privacidade. Nosso objetivo é tornar o aprendizado digital mais próximo, criativo e acessível.</p><div class="social-row"><a class="btn btn-ghost" href="https://github.com/hackorange-cmd" target="_blank" rel="noopener noreferrer">GitHub ↗</a><span id="instagram-link" class="btn btn-muted">Instagram em configuração</span></div></div></div>
+    </section>
+  </main>
+  <footer class="footer"><div class="container footer-inner"><span class="footer-brand">🍊 HACK<span>ORANGE</span></span><p>Construído com curiosidade, HTML, CSS e JavaScript.</p><a href="#inicio" aria-label="Voltar ao início">Voltar ao topo ↑</a></div></footer>
 </body>
 </html>
