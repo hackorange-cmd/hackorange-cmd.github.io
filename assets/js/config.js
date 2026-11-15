@@ -1,14 +1,14 @@
-/* PERSONALIZE AQUI: links e conteúdo. Salve e publique novamente. */
+/* HACK ORANGE 1.1 — EDITE AQUI para trocar links e adicionar cards. */
 window.HACK_ORANGE = {
-  instagram: "", // Exemplo: "https://www.instagram.com/SEU_PERFIL/"
-  checkoutKiwify: "", // Cole o link REAL de pagamento do seu e-book; deixe vazio até configurar
+  instagram: "", // Cole seu Instagram real: https://www.instagram.com/seuperfil/
+  checkoutKiwify: "", // Cole o link real da Kiwify quando estiver pronto
   tips: [
-    { icon: "✦", title: "Inteligência Artificial", description: "Ferramentas para experimentar, criar e aprender com responsabilidade.", label: "Explorar o ChatGPT", url: "https://chatgpt.com/" },
-    { icon: "◈", title: "Privacidade Digital", description: "Pequenos hábitos que ajudam a proteger suas informações e contas.", label: "Ver dicas de segurança", url: "https://cartilha.cert.br/" },
-    { icon: "⌘", title: "Código e GitHub", description: "Do primeiro repositório até projetos que você pode compartilhar.", label: "Explorar GitHub Docs", url: "https://docs.github.com/pt" }
+    { icon: "✦", category: "INTELIGÊNCIA ARTIFICIAL", title: "IA para iniciantes", description: "Aprenda a conversar com ferramentas de IA e a revisar os resultados com olhar crítico.", label: "Testar ChatGPT", url: "https://chatgpt.com/" },
+    { icon: "◇", category: "PRIVACIDADE", title: "Segurança digital", description: "Hábitos, senhas e autenticação em duas etapas para navegar com mais tranquilidade.", label: "Ver cartilha CERT.br", url: "https://cartilha.cert.br/" },
+    { icon: "⌘", category: "DESENVOLVIMENTO", title: "Código sem mistério", description: "Do primeiro commit à publicação de uma página no GitHub Pages.", label: "Explorar GitHub Docs", url: "https://docs.github.com/pt" }
   ],
   projects: [
-    { tag: "WEB • OPEN SOURCE", title: "Hack Orange — Site oficial", description: "Nossa página responsiva, desenvolvida com HTML, CSS e JavaScript.", label: "Ver repositório", url: "https://github.com/hackorange-cmd/hackorange-cmd.github.io" },
-    { tag: "EM CONSTRUÇÃO", title: "Próximos experimentos", description: "Um espaço reservado para ferramentas, scripts e ideias que vamos publicar.", label: "Acompanhar no GitHub", url: "https://github.com/hackorange-cmd?tab=repositories" }
+    { icon: "</>", tag: "HTML · CSS · JAVASCRIPT", title: "Hack Orange — Site oficial", description: "Portal responsivo, modular e aberto a melhorias. Esta própria página é nosso primeiro projeto.", label: "Ver código no GitHub", url: "https://github.com/hackorange-cmd/hackorange-cmd.github.io", status: "EM EVOLUÇÃO" },
+    { icon: "01", tag: "PRÓXIMOS PROJETOS", title: "Laboratório Hack Orange", description: "Em breve: pequenos experimentos com automações, tecnologia e ferramentas para o dia a dia.", label: "Acompanhar projetos", url: "https://github.com/hackorange-cmd?tab=repositories", status: "EM BREVE" }
   ]
 };
